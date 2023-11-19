@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1; /* Займає 1 частину простору */
+    padding-left: 100px;
+}
+
+.right-column {
+    flex: 2; /* Займає 2 частини простору */
+
+}
+
+li {
+    padding: 10px;
+}
+
+table {
+    display: flex;
+    justify-content: center; /* Центрує таблицю по горизонталі */
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+
+td {
+    border: 1px solid; /* Межі для комірок таблиці */
+    padding: 5px; /* Відступи всередині комірок */
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+body {
+        font-family: 'Maven Pro', sans-serif;
+        color: #4f4f6f;
+        background-color:#F9FAFC;
+}
+
+h1 {
+        text-align: center;
+}
+ul {
+        font-family: 'Roboto';
+}
+
+p {
+    padding: 5px;
+}
+
+.price-btn {
+    background: #fff;
+    border: #9fa4af 1px solid;
+    color: #9fa4af;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    border-radius: 100px;
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5);
+    width: 220px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.price-btn:hover {
+    background: #6e45e2;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+}
+
+.anketa {
+    text-align: center;
+}
